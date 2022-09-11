@@ -31,11 +31,11 @@
 - 或选择使用 virtual env 和 requirements.txt 安装
 
   ```bash
-  python3 -m venv jable
+  python3 -m venv miss
   pip install -r requirements.txt
   ```
 
-
+<br/>
 
 #### \*2. 安装 ffmpeg
 
@@ -49,7 +49,7 @@
 
 - 双击打开 `env.bat` 批处理文件，进入命令行；
 
-
+<br/>
 
 #### 2. 下载影片 (execute)
 
@@ -81,7 +81,7 @@
 
 ​		**(不修改 `do.bat` 时，默认根据 `download.txt` 下载)**
 
-
+<br/>
 
 #### 3. 等待下载 (wait)  
 
@@ -91,7 +91,7 @@
 - 可以在 `config.py` 文件中修改保存文件夹路径；
 - 网站有访问速度限制，目前没有添加代理 IP 功能，下载速度较慢；
 
-
+<br/>
 
 #### 4. 后续处理 (process)
 
